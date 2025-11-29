@@ -49,8 +49,8 @@ GitHub 项目健康度分析平台是一个基于 Web Service API 的数据分�
 ```bash
 git clone <your-repo-url> github-health-metrics
 cd github-health-metrics
+### 3.3 创建并激活虚拟环境
 
-3.3 创建并激活虚拟环境
 Linux / macOS：
 python3 -m venv .venv
 source .venv/bin/activate
