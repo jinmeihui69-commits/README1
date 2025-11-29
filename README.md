@@ -81,6 +81,10 @@ GitHub API 探针接口：http://127.0.0.1:8000/check_github_api/
 pytest -vv test_github.py
 pytest -vv test_core_algorithms.py
 ```
+### 3.7 运行测试并生成测试覆盖率报告
+```bash
+pytest --cov=core_algorithms --cov-report=html test_core_algorithms.py
+```
 ## 4. 命令行工具与参数参考
 本项目主要通过以下命令行工具进行运行和测试：uvicorn（启动服务）与 pytest（执行测试）。
 ### 4.1 启动 FastAPI 服务：uvicorn
